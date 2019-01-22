@@ -29,7 +29,10 @@ body {
   font-family: "Poppins", sans-serif;
   color: black;
 }
-
+p {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
 .navbar {
   color: black;
 }
@@ -119,18 +122,21 @@ a:visited {
 }
 
 @media screen and (max-width: 1143px) {
-  .gallery {
+  .portfolio-items {
     width: 810px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 1124px) {
-  .gallery {
+  .portfolio-items {
     width: 547px;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 608px) {
-  .gallery {
+  .portfolio-items {
     width: 256px;
+    margin: 0 auto;
   }
   .pictures {
     text-align: center;
